@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paasword Validation</title>
+
+</head>
+
+<body>
+  <div class="input_contact">
+    <input type="text" placeholder="Имя" name="first_name">
+    <input type="text" placeholder="Фамилия" name="last_name">
+    <input type="text" placeholder="Е-майл" name="email">
+    <input type="text" placeholder="messege" name="messege">
+  </div>
+  <!-- <div class="input_label">
+    <label><span>Время</span><input type="text" name="time"></label>
+    <label><span>Дата</span><input type="text" name="date" id="datepicker"></label>
+</div> -->
+  <div class="submit_button">
+    <input type="submit" value="Отправить">
+  </div>
+
+  <script>
+    function validate() {
+      let a = document.forms["myForm"]["first_name"].value;
+      if (a == "") {
+        alert("Укажите ваше имя");
+        return false;
+      }
+      let b = document.forms["myForm"]["last_name"].value;
+      if (b == "") {
+        alert("Укажите вашу фамилию");
+        return false;
+      }
+      let с = document.forms["myForm"]["email"].value;
+      if (с == "") {
+        alert("Укажите ваш Е-майл");
+        return false;
+      }
+      let d = document.forms["myForm"]["messege"].value;
+      if (d == "") {
+
+      }
+    }
+  </script>
+</body>
+
+</html>

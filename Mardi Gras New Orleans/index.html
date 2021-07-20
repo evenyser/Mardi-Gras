@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Mardi Gras</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="js/style.js"></script>
+
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+
+	<div class="container-fluid">
+		<div class="item header">
+			<div class="container-header">
+
+				<div class="box1">
+					<div class="logo">
+						<img src="images/projectMardiLogo3.png" alt="logo" width="220px">
+					</div>
+				</div>
+
+				<div class="box2">
+
+					<div class="face">
+						<div class="y-1">
+							<div class="y-2"></div>
+						</div>
+
+						<div class="y-3">
+							<div class="y-4"></div>
+						</div>
+					</div>
+
+
+					<!-- burger  -->
+
+					<div class="burger">
+						<input id="menu__toggle" type="checkbox" />
+						<label class="menu__btn" for="menu__toggle">
+							<span></span>
+						</label>
+
+						<ul class="menu__box">
+							<li><a class="menu__item" href="index.html">Home</a></li>
+							<li><a class="menu__item" href="about.html">About</a></li>
+							<li><a class="menu__item" href="media.html">Media</a></li>
+							<li><a class="menu__item" href="faq.html">FAQ</a></li>
+							<li><a class="menu__item" href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+
+
+					<div class="menubar">
+
+						<nav>
+							<ul>
+								<li class="selected"><a href="index.html" class="badge badge-primary">Home</a></li>
+								<li><a href="about.html" class="badge badge-danger">About</a></li>
+								<li><a href="media.html" class="badge badge-warning">Media</a></li>
+								<li><a href="faq.html" class="badge badge-dark">FAQ</a></li>
+								<li><a href="contact.html" class="badge badge-info">Contact</a></li>
+							</ul>
+
+
+						</nav>
+					</div>
+
+
+
+
+				</div>
+
+				<div class="box3">
+					<div class="gerb">
+						<img src="images/gerb.png" alt="gerb" width="200px">
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!-- side2 -->
+
+		<div class="item side2">
+			<div class="container-side2">
+				<div class="side2-box1">
+
+					<h1>OUR SPONSORS</h1>
+				</div>
+				<div class="side2-box2">
+					<div class="slider2"></div>
+					<div class="vertical-menu">
+						<a href="https://www.marriott.com/hotels/travel/msyis-sheraton-new-orleans-hotel/">Sheraton New Orleans
+							Hotel</a>
+						<a href="https://www.walk-ons.com/">Walk-On's Bistreaux and Bar</a>
+						<a href="https://www.acehotel.com/neworleans/">Ace Hotel New Orleans</a>
+						<a href="https://www.ritzcarlton.com/en/hotels/new-orleans">The Ritz-Carlton, New Orleans</a>
+						<a href="https://www.premiumparking.com/P0402">Premium Parking - P402</a>
+						<a href="https://www.lcm.org/">Louisiana Children's Museum</a>
+						<a href="http://www.museumofdeath.net/">Museum of Death</a>
+						<a href="https://www.bloodymarystours.com/">Haunted Museum</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="item main">
+
+			<div class="box-main">
+				<div class="headmain">
+					<h2>FUTURE MARDI GRAS DATES </h2>
+				</div>
+
+				<div class="bodymain">
+					<p>Mardi Gras for the year 2021 is celebrated/ observed on Tuesday, February 16th.
+
+
+						Mardi Gras known as Shrove Tuesday or Fat Tuesday falls annually on the day before Ash Wednesday (start of
+						Lent). The word "Mardi Gras" means "Fat Tuesday" in the French language. Celebrations include festivals,
+						parades, dancing and feasting before the fasting starting on Ash Wednesday
+
+						Days to Mardi Gras 2021
+						Tuesday, February 16th is day number 47 of the 2021 calendar year with 7 months, 4 days until Mardi Gras
+						2021.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="item side">
+			<div class="container-side">
+				<div class="side-box1">
+
+					<div class="reserve">
+						<a href="http://booking.com/" class="btn btn-danger btn-lg btn-block active" role="button"
+							aria-pressed="true">Book
+							Hotel</a>
+					</div>
+
+
+
+
+				</div>
+
+				<div class="side-box2">
+
+					<h3 class="countdown-title">Countdown Clock for Mardi Gras 2021</h3>
+					<div id="countdown" class="countdown">
+						<div class="countdown-number">
+							<span class="days countdown-time"></span>
+							<span class="countdown-text">Days</span>
+						</div>
+						<div class="countdown-number">
+							<span class="hours countdown-time"></span>
+							<span class="countdown-text">Hours</span>
+						</div>
+						<div class="countdown-number">
+							<span class="minutes countdown-time"></span>
+							<span class="countdown-text">Minutes</span>
+						</div>
+						<div class="countdown-number">
+							<span class="seconds countdown-time"></span>
+							<span class="countdown-text">Seconds</span>
+						</div>
+					</div>
+
+					<script>
+						/* clock */
+
+						function getTimeRemaining(endtime) {
+							var t = Date.parse(endtime) - Date.parse(new Date());
+							var seconds = Math.floor((t / 1000) % 60);
+							var minutes = Math.floor((t / 1000 / 60) % 60);
+							var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+							var days = Math.floor(t / (1000 * 60 * 60 * 24));
+							return {
+								'total': t,
+								'days': days,
+								'hours': hours,
+								'minutes': minutes,
+								'seconds': seconds
+							};
+						}
+
+						function initializeClock(id, endtime) {
+							var clock = document.getElementById(id);
+							var daysSpan = clock.querySelector('.days');
+							var hoursSpan = clock.querySelector('.hours');
+							var minutesSpan = clock.querySelector('.minutes');
+							var secondsSpan = clock.querySelector('.seconds');
+
+							function updateClock() {
+								var t = getTimeRemaining(endtime);
+
+								daysSpan.innerHTML = t.days;
+								hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+								minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+								secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+								if (t.total <= 0) {
+									clearInterval(timeinterval);
+								}
+							}
+
+							updateClock();
+							var timeinterval = setInterval(updateClock, 1000);
+						}
+
+						var deadline = "February 16 2021 00:00:00"; // for endless timer
+						initializeClock('countdown', deadline);
+					</script>
+
+				</div>
+				<div class="side-box3">
+
+					<div class="row">
+						<div class="" col col-lg-12 text-center">
+							</input_side-box1>
+
+							<div class="pricing-table row">
+
+								<div class="package_featured">
+									<p class="package_name">New Orlean</p>
+									<hr>
+									<p class="price">10&deg</p>
+									<p class="disclamer"><img src="images/thermo.png" alt="termo"></p>
+
+									<hr>
+
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="item footer">
+		<div class="container-footer">
+			<div class="box-footer1">
+
+				<div class="btn-group" role="group" aria-label="Basic example">
+					<button type="button" class="btn btn-secondary"><img src="images/facebook.png" alt="facebook" width="50px">
+						<a href="http://facebook.com" class="stretched-link"></a></button>
+					<button type="button" class="btn btn-secondary"><img src="images/_youtube-128.png" alt="youtube"
+							width="50px"><a href="http://youtube.com" class="stretched-link"></a></button>
+					<button type="button" class="btn btn-secondary"><img src="images/instagram-128.png" alt="instagram"
+							width="50px"><a href="http://instagram.com" class="stretched-link"></a></button>
+					<button type="button" class="btn btn-secondary"><img src="images/inkedin-128.webp" alt="inkedin"
+							width="50px"></i><a href="http://inkedin.com" class="stretched-link"></a></button>
+					<button type="button" class="btn btn-secondary"><img src="images/twitter-128.webp" alt="twitter"
+							width="50px"></i><a href="http://twitter.com" class="stretched-link"></a></button>
+				</div>
+
+
+
+			</div>
+			<div class="box-footer2">
+
+				<p1>Serebriakov Evgeny</p1>
+				<br>
+				<p2>serjen33@gmail.com</p2>
+
+			</div>
+		</div>
+
+	</div>
+	</div>
+	</div>
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+/* .carusela {
+  display: inline-flex;
+  height: 380px;
+  width: 900px;
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 100px;
+
+}
+
+#carouselExampleControls {
+  position: absolute;
+  height: 380px;
+  width: 900px;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  display: inline-flex;
+  margin: 10px;
+}
+
+.carousel-inner,
+.carousel-item active {
+  position: absolute;
+  margin-top: 10px;
+  height: 380px;
+  width: 900px;
+  margin-bottom: 100px;
+  display: inline-flex;
+}  */
